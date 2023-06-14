@@ -11,10 +11,10 @@
                 <a class="nav-link active" href="/home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+                <a class="nav-link" href="/students">Student</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/post">Post</a>
+                <a class="nav-link" href="/gurus">Guru</a>
             </li>
         </ul>
         </div>
