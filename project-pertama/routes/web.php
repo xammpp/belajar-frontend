@@ -27,3 +27,5 @@ Route::get('/home', function () {
 });
 
 Route::get('/students', [StudentContorller::class, 'students']);
+
+Route::get('/students', [StudentContorller::class, 'students']);

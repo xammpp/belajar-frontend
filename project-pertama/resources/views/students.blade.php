@@ -6,6 +6,6 @@
 @section('content')
 <div class="container">
     <h1>Halaman About</h1>
-    <h2>{{ $name }}</h2>
+    <p>{{ $studentList }}</p>
 </div>
 @endsection

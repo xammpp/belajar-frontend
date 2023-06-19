@@ -9,7 +9,7 @@ class StudentContorller extends Controller
 {
     public function students()
     {
-        $name = 'Daffa';
-        return view('/students', ['name' => $name]);
+        $student = Student::all();
+        return view('students', ['studentList' => $student]);
     }
 }
