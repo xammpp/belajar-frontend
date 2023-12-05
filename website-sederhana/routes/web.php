@@ -24,3 +24,7 @@ Route::get('/', function () {
 Route::get('/website', function () {
     return view('website');
 });
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});

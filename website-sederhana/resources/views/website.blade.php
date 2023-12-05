@@ -167,7 +167,7 @@
         <div class="row pt-4 gx-4 gy-4">
           <div class="col-md-4 text-center tim">
             <img src="https://www.kingrosales.com/wp-content/uploads/2018/05/king-rosales-profile-photo-square.jpg" alt="Logo" class="rounded-circle mb-3">
-            <h4><a href="" class="text-decoration-none nama">Jonh Smith</a></h4>
+            <h4><a href="/portfolio" class="text-decoration-none nama">Jonh Smith</a></h4>
             <p>Web Design</p>
             <p>
               <a href="" class="social"><i class="fa-brands fa-twitter"></i></i></a>
@@ -178,7 +178,7 @@
 
           <div class="col-md-4 text-center tim">
             <img src="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/810/profiles/19338/profileImage/profile-square-extra-small.png" alt="Logo" class="rounded-circle mb-3">
-            <h4><a href="" class="text-decoration-none nama">Donald Smith</a></h4>
+            <h4><a href="/portfolio" class="text-decoration-none nama">Donald Smith</a></h4>
             <p>Programming</p>
             <p>
               <a href="" class="social"><i class="fa-brands fa-twitter"></i></i></a>
@@ -189,7 +189,7 @@
 
           <div class="col-md-4 text-center tim">
             <img src="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/810/profiles/19338/profileImage/profile-square-extra-small.png" alt="Logo" class="rounded-circle mb-3">
-            <h4><a href="" class="text-decoration-none nama">Brian Smith</a></h4>
+            <h4><a href="/portfolio" class="text-decoration-none nama">Brian Smith</a></h4>
             <p>IT Support</p>
             <p>
               <a href="" class="social"><i class="fa-brands fa-twitter"></i></i></a>
