@@ -14,8 +14,8 @@
   <body>
     <div class="wrapper">
       <div class="title-text">
-        <div class="title login">Form Login</div>
-        <div class="title signup">Form Registrasi</div>
+        <div class="title login">Login</div>
+        <div class="title signup">Registrasi</div>
       </div>
 
       <div class="form-container">
@@ -36,7 +36,7 @@
             <div class="field">
               <input type="password" placeholder="Masukan Password" required />
             </div>
-            <div class="pass-link"><a href="#">Lupa password?</a></div>
+            {{-- <div class="pass-link"><a href="#">Lupa password?</a></div> --}}
             <div class="field btn">
               <div class="btn-layer"></div>
               <input type="submit" value="Login" />
