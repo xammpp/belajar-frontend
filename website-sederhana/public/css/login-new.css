@@ -1,0 +1,7 @@
+.google {
+    border: 1px solid #000; /* Warna hitam, ketebalan 1 piksel, jenis garis solid */
+    text-decoration: none; /* Menghilangkan garis bawah default pada tautan */
+    display: inline-block; /* Membuat tautan menjadi elemen blok inline */
+    color: #000; /* Warna teks */
+    border-radius: 5px; /* Sudut sudut elemen */
+}
