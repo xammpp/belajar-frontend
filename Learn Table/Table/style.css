@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  max-height: 300px; /* Atur tinggi maksimum tabel sesuai keinginan Anda */
+  overflow-y: auto; /* Tambahkan scroll vertikal jika tabel melebihi tinggi maksimum */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
