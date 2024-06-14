@@ -4,6 +4,10 @@
   --secondary: #555555;
   --light: #f1f3fa;
   --dark: #1c2035;
+  --green: #00aa88;
+  --grey: #2b2c33;
+  --black: #000000;
+  --white: #f7f7f7;
 }
 
 .back-to-top {
@@ -73,7 +77,8 @@
   font-weight: normal;
 }
 
-.logo h2 {
+.logo img,
+h2 {
   margin-right: 50px;
 }
 
@@ -81,6 +86,10 @@
 .sticky-top {
   top: -100px;
   transition: 0.5s;
+}
+
+.logo h2 span {
+  color: var(--green);
 }
 
 .navbar .navbar-nav .nav-link {
@@ -94,7 +103,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-  color: var(--primary);
+  color: var(--green);
 }
 
 .navbar .dropdown-toggle::after {
@@ -115,6 +124,11 @@
   .navbar .navbar-nav {
     margin-top: 15px;
     border-top: 1px solid #eeeeee;
+  }
+
+  .logo img {
+    width: 40%;
+    margin-bottom: 30px;
   }
 }
 
@@ -147,6 +161,19 @@
   align-items: center;
   background: rgba(0, 0, 0, 0.1);
   z-index: 1;
+}
+
+.carousel-title span {
+  color: var(--green);
+}
+
+.btn-carousel {
+  background-color: var(--green);
+  border: none;
+}
+
+.btn-carousel:hover {
+  background-color: var(--green);
 }
 
 .carousel-control-prev,
@@ -203,11 +230,23 @@
 
 /*** About ***/
 .about {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/about.jpg) left center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/about1.jpg) left center no-repeat;
   background-size: cover;
 }
 
-.btn-play {
+p span {
+  color: var(--green);
+}
+
+.btn-about {
+  background-color: var(--green);
+}
+
+.btn-about:hover {
+  background-color: var(--green);
+}
+
+/* .btn-play {
   position: relative;
   display: block;
   box-sizing: content-box;
@@ -218,9 +257,9 @@
   outline: none !important;
   padding: 18px 20px 20px 28px;
   background: var(--primary);
-}
+} */
 
-.btn-play:before {
+/* .btn-play:before {
   content: '';
   position: absolute;
   z-index: 0;
@@ -233,9 +272,9 @@
   background: var(--primary);
   border-radius: 100%;
   animation: pulse-border 1500ms ease-out infinite;
-}
+} */
 
-.btn-play:after {
+/* .btn-play:after {
   content: '';
   position: absolute;
   z-index: 1;
@@ -248,9 +287,9 @@
   background: var(--primary);
   border-radius: 100%;
   transition: all 200ms;
-}
+} */
 
-.btn-play span {
+/* .btn-play span {
   display: block;
   position: relative;
   z-index: 3;
@@ -260,7 +299,7 @@
   border-left: 30px solid #ffffff;
   border-top: 18px solid transparent;
   border-bottom: 18px solid transparent;
-}
+} */
 
 @keyframes pulse-border {
   0% {
