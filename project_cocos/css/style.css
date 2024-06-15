@@ -125,6 +125,10 @@ h2 {
     margin-top: 15px;
     border-top: 1px solid #eeeeee;
   }
+
+  .logo {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) {
@@ -151,7 +155,7 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 80px;
   display: flex;
   align-items: center;
   background: rgba(0, 0, 0, 0.1);
@@ -200,7 +204,7 @@ h2 {
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/background1.jpg) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/background.png) center center no-repeat;
   background-size: cover;
 }
 
