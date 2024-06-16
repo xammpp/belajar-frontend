@@ -350,6 +350,14 @@ p span {
   z-index: 2;
 }
 
+.baca span {
+  color: var(--green);
+}
+
+.bi {
+  color: var(--green);
+}
+
 .service-item:hover .service-text {
   top: -1.5rem;
 }
@@ -359,7 +367,7 @@ p span {
 }
 
 .service-item:hover .service-text h5 {
-  color: var(--primary);
+  color: var(--green);
 }
 
 .service-item .service-btn {
@@ -407,6 +415,7 @@ p span {
 .project-item:hover .project-overlay {
   opacity: 1;
   padding-top: 0;
+  color: var(--green);
 }
 
 .project-carousel .owl-nav {
