@@ -1,0 +1,23 @@
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f8f9fa;
+  margin-top: 56px; /* Sesuaikan nilai ini agar sesuai dengan tinggi navbar */
+}
+.navbar {
+  background-color: #343a40;
+}
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.about h2 {
+  margin-top: 100px;
+}
+
+.about .foto {
+  margin-top: 100px;
+}
