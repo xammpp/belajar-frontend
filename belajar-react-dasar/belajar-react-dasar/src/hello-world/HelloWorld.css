@@ -1,0 +1,13 @@
+.title {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.content {
+  color: blue;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: green;
+}
