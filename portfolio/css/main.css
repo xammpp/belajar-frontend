@@ -44,3 +44,44 @@ li a.link:hover {
   color: blue;
   border-bottom: 2px solid blue;
 }
+
+/* ==================== hero section =============================== */
+.container-hero {
+  padding: 20px;
+  display: flex;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content .button {
+  margin-top: 30px;
+  background-color: #ecdfcc;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hero-content .button:hover {
+  background-color: blue;
+  color: white;
+  transition: all 0.7s ease;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  flex: 50%;
+}
+
+.hero-image img {
+  max-width: 50%;
+}
