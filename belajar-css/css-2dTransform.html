@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 2D Transform</title>
+    <style>
+      div.satu {
+        width: 200px;
+        height: 100px;
+        background-color: blue;
+        margin-top: 100px;
+        margin-left: 100px;
+      }
+
+      div.satu:hover {
+        transform: rotate(180deg);
+        transition: all 1s;
+      }
+
+      div.dua {
+        width: 200px;
+        height: 100px;
+        background-color: red;
+        margin-top: 100px;
+        margin-left: 100px;
+      }
+
+      div.dua:hover {
+        transform: rotateY(150deg);
+        transition: all 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="satu">
+      <p>hello</p>
+    </div>
+
+    <div class="dua">
+      <p>hello</p>
+    </div>
+  </body>
+</html>

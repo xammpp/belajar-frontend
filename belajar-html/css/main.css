@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', serif;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.title-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.title-header a:hover {
+  color: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+  transition: all 0.5s;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+}
+
+.social-media a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: blue;
+  transition: all 0.5s;
+}

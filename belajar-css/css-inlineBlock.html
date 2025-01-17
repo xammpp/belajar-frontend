@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Inline-Block</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      nav.container {
+        background-color: yellow;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }
+      ul.nav-link li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 20px;
+      }
+      ul.nav-link li a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0">
+    <nav class="container">
+      <ul class="nav-link">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

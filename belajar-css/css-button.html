@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Button</title>
+    <style>
+      button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+
+      .btn-1 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      .btn-1 span::after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      .btn-1:hover span {
+        padding-right: 25px;
+      }
+
+      .btn-1:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Button Click</h1>
+    <button class="btn-1" style="vertical-align: middle"><span>Click Here </span></button>
+    <!-- <button class="btn-2">Click Here</button>
+    <button class="btn-3">Click Here</button>
+    <button class="btn-4">Click Here</button> -->
+  </body>
+</html>

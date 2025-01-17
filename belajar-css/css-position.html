@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+    <style>
+      div {
+        width: 300px;
+        height: 300px;
+        background-color: tomato;
+        position: relative;
+      }
+
+      .satu {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .dua {
+        width: 50px;
+        height: 50px;
+        background-color: lightgreen;
+        position: absolute;
+        z-index: 2;
+      }
+
+      .tiga {
+        width: 25px;
+        height: 25px;
+        background-color: lightcoral;
+        position: absolute;
+        z-index: 1;
+        top: 35px;
+      }
+    </style>
+  </head>
+  <body style="height: 1000vh">
+    <h1>Website</h1>
+    <div>
+      <div class="satu">wkwkwk</div>
+      <div class="dua">awaok</div>
+      <div class="tiga">xk</div>
+    </div>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident molestiae maiores accusantium qui laborum numquam repudiandae iusto animi, consequatur reiciendis vitae non cum perferendis possimus quidem aut saepe, itaque nihil
+      voluptate tempore nemo ducimus, sint a sed! At laudantium nisi nemo optio placeat dolores temporibus, soluta quam ex voluptatem nostrum?
+    </p>
+  </body>
+</html>

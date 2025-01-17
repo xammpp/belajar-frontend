@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Height and Width</title>
+
+    <style>
+      div.kotak {
+        width: 300px;
+        height: 300px;
+        background-color: lightblue;
+      }
+      div.kotak1 {
+        max-width: 300px;
+        max-height: 300px;
+        background-color: yellow;
+      }
+      div.kotak2 {
+        min-width: 300px;
+        min-height: 300px;
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak">
+      <p>This is a paragraph of text.</p>
+      <p>Width untuk mengatur lebar elemen</p>
+      <p>Height untuk mengatur tinggi elemen</p>
+      <p>Max-Width untuk mengatur responsiv</p>
+    </div>
+    <div class="kotak1">
+      <p>Menggunakan max-width dan max-height</p>
+    </div>
+    <div class="kotak2">
+      <p>Menggunakan min-width dan min-height</p>
+    </div>
+  </body>
+</html>

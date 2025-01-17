@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Animation</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: salmon;
+        border-radius: 100px;
+        text-align: center;
+        animation-name: example;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes example {
+        0% {
+          background-color: salmon;
+          transform: rotate(0deg);
+        }
+        50% {
+          background-color: lightblue;
+          transform: rotate(180deg);
+        }
+        100% {
+          background-color: salmon;
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>hello</p>
+    </div>
+  </body>
+</html>

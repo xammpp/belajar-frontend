@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Gallery</title>
+    <style>
+      div.img {
+        border: 1px solid #ccc;
+        width: 250px;
+        float: left;
+        margin: 10px;
+      }
+
+      div.img:hover {
+        border: 1px solid #777;
+      }
+
+      div.img img {
+        width: 100%;
+        height: auto;
+        opacity: 0.5;
+      }
+
+      div.img img:hover {
+        opacity: 1;
+      }
+
+      div > p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img">
+      <a href="#">
+        <img src="https://images.unsplash.com/photo-1719937206642-ca0cd57198cc?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="gambar" />
+      </a>
+      <div><p>Hello Wordl</p></div>
+    </div>
+    <div class="img">
+      <a href="#">
+        <img src="" alt="gambar" />
+      </a>
+      <div><p>Hello Wordl</p></div>
+    </div>
+    <div class="img">
+      <a href="#">
+        <img src="" alt="gambar" />
+      </a>
+      <div><p>Hello Wordl</p></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Table</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="overflow-x: auto">
+      <table>
+        <tr>
+          <th>firstname</th>
+          <th>lastname</th>
+          <th>email</th>
+          <th>password</th>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>John@gmail.com</td>
+          <td>12345</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>John@gmail.com</td>
+          <td>12345</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

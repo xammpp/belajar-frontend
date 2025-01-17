@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1e201e;
+  color: #ecdfcc;
+}
+
+nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 1px solid #ecdfcc;
+}
+
+h1.nav-title a {
+  color: #ecdfcc;
+  text-decoration: none;
+}
+
+h1.nav-title a:hover {
+  color: blue;
+  transition: all 0.7s ease;
+}
+
+ul.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+li a.link {
+  color: #ecdfcc;
+  text-decoration: none;
+}
+
+li a.link:hover {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
