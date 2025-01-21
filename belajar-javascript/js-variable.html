@@ -6,15 +6,15 @@
     <title>JS Variable</title>
   </head>
   <body>
+    <h1>Java Script Variable</h1>
+    <p id="demo"></p>
     <script>
-      const name = 'John Doe';
-      const age = 20;
-      document.writeln(`Nama saya ${name}, umur saya ${age} tahun`);
-      if (age > 18) {
-        document.writeln('Anda sudah dewasa');
-      } else {
-        document.writeln('Anda masih anak-anak');
-      }
+      const myCar = 'Nissan Skyline';
+      document.getElementById('demo').innerHTML = 'mobile saya adalah' + ' ' + myCar;
+      document.getElementById('demo').style.backgroundColor = 'tomato';
+      document.getElementById('demo').style.color = 'white';
+      document.getElementById('demo').style.padding = '10px';
+      document.getElementById('demo').style.borderRadius = '10px';
     </script>
   </body>
 </html>

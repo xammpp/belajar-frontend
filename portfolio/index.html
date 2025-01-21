@@ -3,36 +3,210 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <!-- CDN Fonts Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
-
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/main.css" />
+    <title>Bagus Daffa Firmansyah</title>
   </head>
   <body>
-    <nav>
-      <h1 class="nav-title"><a href="#home">Portfolio</a></h1>
-      <ul class="nav-links">
-        <li><a class="link" href="#home">Home</a></li>
-        <li><a class="link" href="#about">About</a></li>
-        <li><a class="link" href="#skill">Skill</a></li>
-        <li><a class="link" href="#portfolio">Portfolio</a></li>
-        <li><a class="link" href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <!-- Navbar Start -->
+    <header class="header">
+      <a href="#" class="logo">BDF</a>
 
-    <div class="container-hero">
-      <div class="hero-content">
-        <h1>Welcome To Website</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, optio.</p>
-        <a href="#" class="button">View Project</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Home Start -->
+    <section id="home" class="home">
+      <div class="home-content">
+        <h3>Halo, Nama saya :</h3>
+        <h1>Bagus Daffa Firmasyah</h1>
+        <h3>Aku Seorang <span class="multiple-text"></span></h3>
+        <p>Lulusan Politeknik Negeri Jember Jurusan Teknologi Informasi Program Studi Manajemen Informatika.</p>
+        <div class="social-media">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
       </div>
-      <div class="hero-image">
-        <img src="./img/hero-removebg.png" alt="hero-image" />
+
+      <div class="home-img">
+        <img src="./img/img.png" alt="img" />
       </div>
-    </div>
+    </section>
+    <!-- Home End -->
+
+    <!-- About Start -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./img/about.png" alt="about" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">Tentang <span>Saya</span></h2>
+        <!-- <h3>Web Developer</h3> -->
+        <p>
+          Saya lulusan dari Politeknik Negeri Jember D3 Manajemen Informatika. Saya sangat menyukai tentang teknologi, terutama tentang web development. Saya ingin menjadi seorang web developer yang profesional dan sukses. Saya juga ingin
+          membuat website yang bermanfaat bagi orang lain.
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!-- Skill start -->
+    <section class="skill" id="skill">
+      <h2 class="heading"><span>Skill Program</span> Saya</h2>
+
+      <div class="skill-container">
+        <div class="skill-box">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML</h3>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank" class="btn">Dokumentasi HTML</a>
+        </div>
+
+        <div class="skill-box">
+          <i class="fa-brands fa-css"></i>
+          <h3>CSS</h3>
+          <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="btn">Dokumentasi CSS</a>
+        </div>
+
+        <div class="skill-box">
+          <i class="fa-brands fa-js"></i>
+          <h3>JavaScript</h3>
+          <a href="https://www.w3schools.com/js/default.asp" target="_blank" class="btn">Dokumentasi JavaScript</a>
+        </div>
+
+        <div class="skill-box">
+          <i class="fa-brands fa-python"></i>
+          <h3>Python</h3>
+          <a href="https://www.w3schools.com/python/default.asp" target="_blank" class="btn">Dokumentasi Python</a>
+        </div>
+
+        <div class="skill-box">
+          <i class="fa-brands fa-bootstrap"></i>
+          <h3>Bootstrap</h3>
+          <a href="https://getbootstrap.com/" target="_blank" class="btn">Dokumentasi Bootstrap</a>
+        </div>
+
+        <div class="skill-box">
+          <i class="fa-brands fa-react"></i>
+          <h3>ReactJS</h3>
+          <a href="https://www.w3schools.com/react/default.asp" target="_blank" class="btn">Dokumentasi ReactJS</a>
+        </div>
+
+        <div class="skill-box">
+          <i class="fa-solid fa-database"></i>
+          <h3>MySQL Database</h3>
+          <a href="https://www.w3schools.com/mysql/default.asp" target="_blank" class="btn">Dokumentasi Database</a>
+        </div>
+
+        <div class="skill-box">
+          <i class="fa-brands fa-laravel"></i>
+          <h3>Laravel</h3>
+          <a href="https://laravel.com/" target="_blank" class="btn">Dokumentasi Laravel</a>
+        </div>
+      </div>
+    </section>
+    <!-- Skill end -->
+
+    <!-- Portfolio start -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading"><span>Proyek</span> Terbaru</h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="https://images.unsplash.com/photo-1736297150541-89378f055b96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Web Portfolio HTML, CSS, and JavaScript</h4>
+            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, eligendi?</p> -->
+            <div class="linkss">
+              <a href="#"><i class="fa-solid fa-eye"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="https://images.unsplash.com/photo-1736297150541-89378f055b96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Web Company Profile</h4>
+            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, eligendi?</p> -->
+            <div class="linkss">
+              <a href="#"><i class="fa-solid fa-eye"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="https://images.unsplash.com/photo-1736297150541-89378f055b96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Web E-Commerce</h4>
+            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, eligendi?</p> -->
+            <div class="linkss">
+              <a href="#"><i class="fa-solid fa-eye"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio end -->
+
+    <!-- Contact start -->
+    <section class="contact" id="contact">
+      <h2 class="heading"><span>Hubungi</span> Saya</h2>
+      <form action="#" id="contact-form">
+        <div class="input-box">
+          <input type="text" placeholder="Nama Lengkap" required />
+          <input type="email" placeholder="Email Anda" required />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Nomor Telepon" required />
+          <input type="text" placeholder="Email Subjek" required />
+        </div>
+
+        <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Tulis pesan Anda" required></textarea>
+        <input type="submit" value="Kirim Pesan" class="btn" />
+      </form>
+    </section>
+    <!-- Contact end -->
+
+    <!-- Footer start -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 <span>Web Portfolio</span>. All rights reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
