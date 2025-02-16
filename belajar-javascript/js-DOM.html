@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript DOM (Document Object Model)</title>
+  </head>
+  <body>
+    <p class="root" id="paragraf1">Ini paragraf pertama.</p>
+    <p class="root" id="paragraf2">Ini paragraf kedua.</p>
+    <div class="root" id="paragraf3">Ini paragraf ketiga.</div>
+    <br />
+
+    <button onclick="MyFunction()">Klik Me</button>
+
+    <script>
+      function MyFunction() {
+        // 1. Cara mengakses elemen html menggunakan DOM
+        // i. Menggunakan ID
+        // document.getElementById('paragraf1').style.color = 'blue';
+        // ii. Menggunakan TagName
+        // document.getElementsByTagName('p')[0].style.color = 'blue';
+        // Mengubah semua elemen menggunkana perulangan
+        /* let element = document.getElementsByTagName('p');
+        for (let i = 0; i < element.length; i++) {
+          element[i].style.color = 'blue';
+        } */
+        // iii. Menggunakan ClassName
+        // document.getElementsByClassName('root')[1].style.color = 'blue';
+        /* let element = document.getElementsByClassName('root');
+        for (let i = 0; i < element.length; i++) {
+          element[i].style.color = 'blue';
+          element[i].style.fontSize = '50px';
+        } */
+      }
+    </script>
+  </body>
+</html>
