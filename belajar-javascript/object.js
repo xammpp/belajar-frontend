@@ -6,6 +6,8 @@
 //   jurusan: 'TKJ',
 // };
 
+////////////////////////////////////////////////////////////
+
 // Membuat object dengan function declaration
 // function buatObjectSiswa(nama, umur, kelas, jurusan) {
 //   let mhs = {};
@@ -15,9 +17,10 @@
 //   mhs.jurusan = jurusan;
 //   return mhs;
 // }
-
 // let mhs2 = buatObjectSiswa('Dwi Masruroh', 23, '1B', 'Akuntansi');
 // let mhs3 = buatObjectSiswa('Niken Ayu', 23, '1A', 'Akuntansi');
+
+////////////////////////////////////////////////////////////
 
 // Membuat object dengan constructor
 // function Mahasiswa(nama, umur, kelas, jurusan) {
@@ -26,11 +29,11 @@
 //   this.kelas = kelas;
 //   this.jurusan = jurusan;
 // }
-
 // let mhs4 = new Mahasiswa('Ayu Daffa Firmasyah', 24, '1B', 'TKJ');
 
-// membuat object dengan function
+////////////////////////////////////////////////////////////
 
+// membuat object dengan function
 // cara 1 dengan function declaration
 // function halo() {
 //   console.log('hallo');
@@ -72,8 +75,8 @@
 // this mengembalikan object yang bersangkutan
 
 // this dengan object construktor
-function Halo() {
-  console.log(this);
-  console.log('hallo');
-}
-new Halo();
+// function Halo() {
+//   console.log(this);
+//   console.log('hallo');
+// }
+// new Halo();
