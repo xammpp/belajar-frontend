@@ -42,9 +42,61 @@
 // arr.shift();
 // console.log(arr.join(' - '));
 
-// 4. slice
-let arr = ['bagus', 'daffa', 'niken'];
-arr.splice(2, 0, 'firmansyah');
-console.log(arr.join(' - '));
+// 4. splice digunakan untuk menyisipkan data pada array javascript
+// let arr = ['bagus', 'daffa', 'niken'];
+// arr.splice(1, 2, 'firmansyah');
+// console.log(arr.join(' - '));
 
-// 5. splice
+// 5. slice digunakan untuk memotong data yang di inginkan pada array javascript
+// let arr = ['bagus', 'daffa', 'niken', 'firmasyah', 'ayu'];
+// let arr2 = arr.slice(0, 2);
+// console.log(arr2.join(' - '));
+
+// 6. forEach
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// arr.forEach(function (e) {
+//   console.log(e);
+// });
+
+// let arr = ['bagus', 'daffa', 'firmasyah'];
+// arr.forEach(function (e, i) {
+//   console.log('Mahasiswa ke - ' + (i + 1) + ' ' + e);
+// });
+
+// 7. map
+// let angka = [1, 3, 2, 4, 5, 7, 6, 8, 9];
+// let arr = angka.map(function (e) {
+//   return e * 2;
+// });
+// console.log(arr.join(' - '));
+
+// 8. sort digunakan untuk mengurutkan data pada array
+// let angka = [1, 3, 2, 11, 15, 21, 4, 5, 7, 6, 8, 9];
+// angka.sort(function (e, i) {
+//   return e - i;
+// });
+// console.log(angka.join(' - '));
+
+// 9. filter
+// let angka = [1, 3, 2, 11, 15, 21, 4, 5, 7, 6, 8, 9];
+// angka.sort(function (e, i) {
+//   return e - i;
+// });
+
+// let arr = angka.filter(function (e) {
+//   return e > 5;
+// });
+// console.log(arr.join(' - '));
+
+// 10. find
+// let angka = [1, 3, 2, 11, 15, 21, 4, 5, 7, 6, 8, 9];
+// angka.sort(function (e, i) {
+//   return e - i;
+// });
+
+// let arr = angka.find(function (e) {
+//   return e > 6;
+// });
+// console.log(arr);
+
+// Latihan membuat program
