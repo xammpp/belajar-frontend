@@ -80,3 +80,10 @@
 //   console.log('hallo');
 // }
 // new Halo();
+
+function Mahasiswa(nama, umur) {
+  this.nama = nama;
+  this.umur = umur;
+}
+
+let mhs1 = new Mahasiswa('Bagus', 23);
